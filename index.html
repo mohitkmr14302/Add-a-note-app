@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index HTML</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <p class="item" id="tittle"> MAGIC LIST </p>
+        <a class="item" id="home" href="#">HOME</a>
+        <div class="search">
+            <input type="text" name="" id="searchbar" placeholder="Search">
+        </div>
+        <button class="searchbtn">Search</button>
+    </nav>
+    <div class="container">
+        <hr class="line">
+        <h2 calss="heading1">Welcome To Magic Notes </h2>
+
+        <div id="inputdiv">
+            <!-- start -->
+            <h3 class="heading2">Add tittle</h3>
+            <textarea name="" id="addtittle" cols="30" rows="10" placeholder="Add tittle"></textarea>
+            <!-- end -->
+            <h3 class="heading2">Add a Note</h3>
+            <textarea name="" id="inputtxt" cols="30" rows="10"></textarea>
+            <button id="addbtn">Add Notes</button>
+        </div>
+        <hr class="line">
+        <h3 class="heading1">Your Notes</h3>
+        <hr class="line">
+        <div id="showtext">
+
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
